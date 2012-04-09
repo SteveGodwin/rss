@@ -1,10 +1,10 @@
-# my-stuff
+# rss
 
 First serious attempts at dabbling with Clojure.
 rss.clj - take two RSS feeds and show the differences
 
 ## Usage
-java -jar my-stuff.jar old.xml new.xml
+java -jar rss-standalone.jar old.xml new.xml
 
 Locations can be files or URLs
 
