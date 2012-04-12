@@ -30,5 +30,5 @@
 (defn -main [& args]
   (def old (set (keys-from-rss (first args))))
   (def new (set (keys-from-rss (fnext args))))
-  (println "Added: " (str/join (added old new)))
-  (println "Removed: " (str/join (removed old new))))
+  (println "Added: " (str/join " " (added old new)))
+  (println "Removed: " (str/join " " (removed old new))))
